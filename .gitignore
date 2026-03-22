@@ -1,0 +1,11 @@
+# Environment files (keep samples only)
+.env
+**/.env
+
+# Cloudflare tunnel credentials
+app/cloudflared/*.json
+
+# Common local/OS junk
+.DS_Store
+Thumbs.db
+.vscode/

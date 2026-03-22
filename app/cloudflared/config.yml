@@ -1,0 +1,20 @@
+tunnel: <TUNNEL_ID>
+credentials-file: /etc/cloudflared/<TUNNEL_ID>.json
+
+ingress:
+  # Primary site
+  - hostname: example.com
+    service: http://wordpress:80
+
+  # Example Redirects
+  - hostname: www.example.com
+    service: http://redirect:8080
+
+  - hostname: blog.example.com
+    service: http://redirect:8080
+
+  # n8n Workflow Automation
+  - hostname: n8n.example.com
+    service: http://n8n:5678
+
+  - service: http://redirect:8080
