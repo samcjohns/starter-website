@@ -1,5 +1,7 @@
 # starter-website
 
+**Created by Samuel Johns**
+
 Powerful and free website stack using WordPress and n8n.
 
 ## Purpose
